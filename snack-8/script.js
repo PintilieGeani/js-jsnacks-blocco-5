@@ -21,3 +21,16 @@ const students = [
 
 // Recupera la classe dello studente 'Marco Lanci'
 // Risultato: '3C'
+
+students.forEach((curStudent) => {
+  if(curStudent.name ==="Marco Lanci"){
+    console.log(curStudent.class)
+  }
+})
+
+students.filter((curStudent) => {
+  if(curStudent.name ==="Marco Lanci"){
+    console.log(curStudent.class)
+  }
+})
+
