@@ -28,9 +28,6 @@ students.forEach((curStudent) => {
   }
 })
 
-students.filter((curStudent) => {
-  if(curStudent.name ==="Marco Lanci"){
-    console.log(curStudent.class)
-  }
-})
+const classeMarco = students.find((curStudent) => curStudent.name === "Marco Lanci")
 
+console.log(classeMarco.class)
